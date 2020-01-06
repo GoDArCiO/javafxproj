@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="189.0" fitWidth="150.0" layoutX="166.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bb8.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="99.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BB-8, sometimes spelled and pronounced Beebee-Ate and nicknamed BB, was a BB-series astromech droid who operated approximately thirty years after the Battle of Endor. It had a dome head, similar to that of R2 series astromech droids, with the bulk of its body made up of a ball on which the droid's head rolled. BB-8 was mostly white, with some silver and orange on its body, as well as a black photoreceptor. The droid belonged to Resistance pilot Poe Dameron, whom he accompanied during his flights on his T-70 X-wing starfighter." wrappingWidth="284.37306213378906">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

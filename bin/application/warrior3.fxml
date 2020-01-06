@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="292.0" fitWidth="281.0" layoutX="159.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rey.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="103.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rey Skywalker was a Force-sensitive human female who, after years of living as a scavenger, became a Jedi during the war between the First Order and the Resistance. Prior to adopting a surname, she referred to herself only as Rey, unaware of her lineage as the granddaughter of Emperor Sheev Palpatine. Having inherited her grandfather's power in the Force, Rey not only learned the Jedi arts, but also formed a unique bond with Supreme Leader Kylo Ren." textAlignment="CENTER" wrappingWidth="274.8033142089844">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

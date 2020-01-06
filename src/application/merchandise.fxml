@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="explorerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ChoiceController">
+   <children>
+      <Pane layoutX="533.0" prefHeight="700.0" prefWidth="248.0">
+         <children>
+            <Button layoutX="73.0" layoutY="185.0" mnemonicParsing="false" onAction="#actionEvent" prefHeight="54.0" prefWidth="102.0" text="Droids" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="85.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@c3po.png" />
+               </image>
+            </ImageView>
+            <Line endX="100.0" layoutX="124.0" layoutY="265.0" startX="-100.0" />
+            <Text layoutX="15.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Droids, short for androids, or also called robots, were mechanical beings, often possessing artificial intelligence. They were used in a variety of roles and environments, often those considered too menial or too dangerous for humans and other species. Droids were also used in fields that required extensive specialization and knowledge, such as medical droids and astromech droids. Droids designed for combat were battle droids." textAlignment="CENTER" wrappingWidth="218.47061157226562">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="241.0" prefHeight="700.0" prefWidth="285.0">
+         <children>
+            <Button layoutX="100.0" layoutY="181.0" mnemonicParsing="false" onAction="#actionEvent3" prefHeight="54.0" prefWidth="102.0" text="Warriors" />
+            <ImageView fitHeight="150.0" fitWidth="126.0" layoutX="88.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@kyloren.png" />
+               </image>
+            </ImageView>
+            <Line endX="100.0" layoutX="151.0" layoutY="264.0" startX="-100.0" />
+            <Text layoutX="42.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Star Wars universe is populated with a variety of interesting characters and species, many of whom are considered to be renowned warriors. Several stand out from the rest of the galaxy, including the Wookiees, Trandoshans, Tusken Raiders, and the humans of Mandalore. Each has a rugged reputation, but their ferocity in combat is tempered by the cultural imperatives present in the ancestors of their people." textAlignment="CENTER" wrappingWidth="218.47061157226562">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane prefHeight="700.0" prefWidth="241.0">
+         <children>
+            <Button layoutX="69.0" layoutY="175.0" mnemonicParsing="false" onAction="#actionEvent2" prefHeight="54.0" prefWidth="102.0" text="Starships" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="45.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@stardestroyer.png" />
+               </image>
+            </ImageView>
+            <Line endX="100.0" layoutX="120.0" layoutY="264.0" startX="-100.0" />
+            <Text layoutX="19.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A starship, or simply referred to as a ship, was a manned vehicle used for traveling in realspace or hyperspace. Dating back thousands of years, the earliest starships transported spacers to new worlds through cryogenic freezing processes. Upon the invention of the hyperdrive, those that were equipped could travel faster than light by entering hyperspace, drastically reducing the journey times between two solar systems." textAlignment="CENTER" wrappingWidth="218.47061157226562">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

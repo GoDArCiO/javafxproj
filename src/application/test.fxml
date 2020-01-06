@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Pane prefHeight="700.0" prefWidth="219.0" style="-fx-background-color: #848482;">
+         <children>
+            <Button fx:id="produktyO" layoutX="78.0" layoutY="471.0" mnemonicParsing="false" onAction="#showMerchandise" prefHeight="50.0" prefWidth="118.0" text="Merchandise">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="koszykO" layoutX="60.0" layoutY="588.0" mnemonicParsing="false" onAction="#showCart" prefHeight="77.0" prefWidth="84.0">
+               <graphic>
+                  <ImageView fitHeight="78.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/6801001_preview.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="86.0" fitWidth="99.0" layoutX="68.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/kindpng_837275.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="7.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jedi Order Shop" textAlignment="CENTER">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="47.0" fitWidth="49.0" layoutX="19.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/Like-2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="49.0" layoutX="19.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/png-next-to-continue-192.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="5.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Jedi Order Shop, here you will find all the tools you need to destroy the sith!" textAlignment="CENTER" wrappingWidth="208.78649902343727">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Line endX="142.66664123535156" endY="-2.288818359375E-5" layoutX="19.0" layoutY="162.0" startX="37.999969482421875" startY="-2.288818359375E-5" />
+            <Button layoutX="78.0" layoutY="383.0" mnemonicParsing="false" onAction="#showWishList" prefHeight="50.0" prefWidth="118.0" text="Wishlist">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <AnchorPane fx:id="holderPane" layoutX="219.0" prefHeight="700.0" prefWidth="781.0" />
+   </children>
+</AnchorPane>

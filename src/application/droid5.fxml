@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="212.0" fitWidth="93.0" layoutX="206.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@k2.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="144.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K-2SO was one of the KX-series security droids assigned to the Imperial stormtrooper detachment on the planet Wecacoe. K-2SO heard a noise near a decommissioned Imperial cruiser. There he encountered Rebel agent Cassian Andor and arrested him. K-2SO and Andor then fought each other until Kertas and Rismor found his kill switch. Cassian then attempted to wipe K-2SO's memory clean." textAlignment="CENTER" wrappingWidth="204.13673400878906">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
